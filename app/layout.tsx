@@ -17,6 +17,9 @@ export const metadata = {
     card: 'summary_large_image',
     images: [{ url: 'https://bolt.new/static/og_default.png' }],
   },
+  verification: {
+    google: "IHcYAPTXbVdgJXB6Xuz85NJK-yUwUNrR1JpWY_il6iA",
+  },
 };
 
 export default function RootLayout({
