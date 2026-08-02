@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../.bolt"
+		},
+		{
+			"path": "../.next"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../components"
+		},
+		{
+			"path": "../hooks"
+		},
+		{
+			"path": "../lib"
+		}
+	]
+}
