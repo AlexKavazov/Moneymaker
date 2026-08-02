@@ -5,22 +5,12 @@ import { ThemeProvider } from '@/components/theme-provider';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'MoneyMaker — Find the business you can start today.',
-  description:
-    'AI analyzes your experience, budget, location, and interests to discover personalized business opportunities with step-by-step launch plans.',
-  verification: {
-    google: 'IHcYAPTXbVdgJXB6Xuz85NJK-yUwUNrR1JpWY_il6iA',
-  },
+export const metadata = {
+  title: "MoneyMaker",
+  description: "Your description here",
   openGraph: {
-    images: [{ url: 'https://bolt.new/static/og_default.png' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    images: [{ url: 'https://bolt.new/static/og_default.png' }],
-  },
-};
-
+    title: "MoneyMaker",
+    description: "Your description here",
     images: [{ url: 'https://bolt.new/static/og_default.png' }],
   },
   twitter: {
