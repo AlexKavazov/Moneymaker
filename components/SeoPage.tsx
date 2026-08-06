@@ -1,3 +1,4 @@
+import RelatedPages from "./RelatedPages";
 import Link from "next/link";
 
 type Props = {
@@ -71,7 +72,7 @@ export default function SeoPage({
           Try MoneyMaker
         </Link>
       </div>
-
+<RelatedPages />
     </main>
   );
 }
