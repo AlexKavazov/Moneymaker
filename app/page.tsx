@@ -99,7 +99,7 @@ export default function Home() {
                   <GeneratorForm onGenerate={handleGenerate} />
                 </motion.div>
 
-                {/* Trust badges */}
+               
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -122,6 +122,29 @@ export default function Home() {
                     desc="Week-by-week launch roadmaps"
                   />
                 </motion.div>
+                <section className="mt-20">
+  <h2 className="text-3xl font-bold text-center mb-8">
+    Explore More Business Resources
+  </h2>
+
+  <div className="grid gap-4 md:grid-cols-2">
+    <a href="/business-idea-generator" className="rounded-lg border p-5 hover:bg-muted">
+      AI Business Idea Generator →
+    </a>
+
+    <a href="/online-business-ideas" className="rounded-lg border p-5 hover:bg-muted">
+      Online Business Ideas →
+    </a>
+
+    <a href="/money-making-ideas" className="rounded-lg border p-5 hover:bg-muted">
+      Money Making Ideas →
+    </a>
+
+    <a href="/passive-income-ideas" className="rounded-lg border p-5 hover:bg-muted">
+      Passive Income Ideas →
+    </a>
+  </div>
+</section>
               </motion.div>
             )}
           </AnimatePresence>
